@@ -31,11 +31,11 @@ label {
 #email,
 #number,
  #name {
-    width: 80vh;
-    height: 50px;
-  color: rgb(255, 255, 255, 0.6);
-  border-radius: 10px;
-  border: none;
+     width: 80vh;
+     height: 50px;
+     color: rgb(255, 255, 255, 0.6);
+     border-radius: 10px;
+     border: none;
   
 }
 
@@ -136,4 +136,8 @@ border-radius: 10px;
     }
 }
 
+#radiobtn{
+
+    color: white;
+}
 
