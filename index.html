@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+</head>
+
+<body>
+
+
+    <form id="survey-form">
+
+        <h1 id="title"> Grand canyon surveyform </h1>
+        <p id="description">Thank you for filling our survey from</p>
+
+
+
+
+        <label id="name-label">
+            <h4> Name</h4>
+            <input type="name" id="name" placeholder="Enter your name" required>
+        </label>
+
+        <label id="email-label">
+            <h4> Email</h4>
+            <input type="email" id="email" placeholder="Enter your email" required>
+        </label>
+
+        <label id="number-label">
+            <h4> Age</h4>
+            <input type="number" id="number" min="10" max="110" placeholder="Enter your age">
+        </label>
+
+
+
+        <label>
+            <h4>For how many days do u wanna stay there</h4>
+            <select id="dropdown" name="role" class="form-control" required>
+                <option disabled selected value>Select Days</option>
+                <option value="Jeppis">1 day</option>
+                <option value="Kokkola"> 2 days</option>
+                <option value="Vasa">3 days</option>
+                <option value="Other">4 days</option>
+            </select>
+        </label>
+
+
+        <div id="radiobtn">
+            <h4>Have you ever been to the Canyons</h4>
+
+            <input name="computer" value="yes" type="radio" checked />Yes
+            <input name="computer" value="yes" type="radio" checked />No
+        </div>
+
+        <label id="checkbox">
+            <h4> What would u like to do </h4>
+
+
+            <input name="computer" value="yes" type="checkbox" checked /> Go hiking
+            <input name="computer" value="yes" type="checkbox" checked />Take a Scenic Drive Near the Grand
+            Canyon
+            <input name="computer" value="yes" type="checkbox" checked />Spend a Night or More Camping
+
+            <input name="computer" value="yes" type="checkbox" checked /> Stand on the Grand Canyon Skywalk
+            <input name="computer" value="yes" type="checkbox" checked />Take a Desert Jeep Tour
+            <input name="computer" value="yes" type="checkbox" checked /> Ride a Bike in the Grand Canyon
+            <input name="computer" value="yes" type="checkbox" checked />Take a Helicopter Tour Over the Canyon
+            <input name="computer" value="yes" type="checkbox" checked />Go on a Rafting Trip in the Grand
+            Canyon National Park
+            <input name="computer" value="yes" type="checkbox" checked />Ride a Mule into the Grand Canyon
+
+
+        </label>
+        <h4 id="text-area">Write here if you have any other comments</h4>
+        <textarea id="textarea"> </textarea>
+
+        <button id="submit">submit</button>
+
+
+
+
+
+    </form>
+
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+
+</html>

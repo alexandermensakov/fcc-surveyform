@@ -1,0 +1,139 @@
+
+body{
+  background-image: url(background.jpg);
+  background-size: cover;
+  background-repeat:no-repeat ;
+  background-position:center ;
+  background-attachment: fixed;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+
+}
+h1{
+justify-content: center;
+display: flex;
+align-items: center;
+color: white;
+font-size: 3rem;
+padding-top: 30px;
+ 
+}
+
+
+
+
+label {
+    margin-top: 20px;
+   
+}
+
+#email,
+#number,
+ #name {
+    width: 80vh;
+    height: 50px;
+  color: rgb(255, 255, 255, 0.6);
+  border-radius: 10px;
+  border: none;
+  
+}
+
+
+
+#survey-form{
+    width: 110vh;
+    height: 1700px;
+    background: rgb(0, 0, 0 ,0.50);
+    padding:2rem;
+   display: flex;
+
+   flex-direction: column;
+   align-items: center;
+
+}
+
+p{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 1rem;
+    padding-bottom: 50px; 
+    }
+   h4{
+       color: white;
+     margin-bottom: 20px; 
+   
+   }
+
+
+   #dropdown{
+       width: 80vh;
+       height: 50px;
+       border-radius: 10px;
+       border: none;
+       margin-top: 20px; 
+       margin-bottom: 20px;
+   }
+
+   div  #radiobtn{
+display: flex;
+flex-direction: column;
+color:white;
+padding-right: 313px;  
+
+}
+
+
+
+#checkbox{
+color: white;
+display: flex;
+flex-direction: column;
+}
+
+#textarea{
+    width: 80vh;
+    height: 100vh;
+    border: none;
+border-radius: 10px;
+}
+
+#text-area{
+  
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#submit{
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(16, 204, 16);
+ margin-top: 100px;
+
+}
+
+#checkbox input{
+    margin-top: 20px;
+}
+
+
+@media (max-width: 800px){
+    #survey-form{
+   
+        max-width:60vh;
+
+    }
+    textarea,
+    select,
+    label,
+    input{
+        max-width: 30vh;
+        
+    }
+}
+
+
